@@ -20,7 +20,7 @@ const { promises } = fs;
 
 const { ifError } = require('assert');
 const { randomBytes } = require('crypto');
-const reactionRolesConfig = JSON.parse(fs.readFileSync('reactionroles.json' , 'utf8'))
+
 
 const cooldown = new Set();
 
