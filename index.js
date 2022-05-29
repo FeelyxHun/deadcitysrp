@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 
 const botconfig = require("./botconfig.json");
-const tokenfile = require("./botconfig.json");
 const bot = new Discord.Client({disableEveryone: true});
 const ms = require('ms')
 const { Presence } = require("discord.js")
@@ -291,6 +290,6 @@ bot.on("message", async message => {
 ///////////////////////////////////////////////////////////////////////////////
 
 })
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
 
 
