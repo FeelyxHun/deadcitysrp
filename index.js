@@ -13,7 +13,7 @@ const { MessageEmbed } = require('discord.js');
 const fs = require("fs");
 const { promises } = fs;
 
-const warnadas = JSON.parse(fs.readFileSync('./warn.json'))
+
 
 
 
