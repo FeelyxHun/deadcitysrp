@@ -66,8 +66,8 @@ bot.on("ready", async() => {
     let státuszok = [
         `Prefix: ${botconfig.prefix}`,
         "Dev: ZetiI#3659",
-        "Meg Semmi",
-        "Dc link",
+        `${botconfig.prefix}help`,
+        "Discord: discord.io/deadcityrp",
     ]
 
     setInterval(function() {
