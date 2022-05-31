@@ -78,7 +78,7 @@ bot.on("ready", async() => {
 })
 
 bot.on('message', message => {
-    if (message.content === '<@974733860216668170>') {
+    if (message.content === '<@980558795375804526>') {
         message.channel.send(`Az itt beállított prefix: **${botconfig.prefix}**`)
     }
 });
